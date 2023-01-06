@@ -13,13 +13,13 @@ p {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    padding-bottom: 30px;
 }
 
-section{
+section {
     margin-top: 130px;
     margin-bottom: 130px;
 }
+
 /* Header Part */
 .header {
     background-blend-mode: darken;
@@ -28,16 +28,17 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.overlay { 
-    background-color: rgba(18,18,18,0.6); 
-  }
+
+.overlay {
+    background-color: rgba(18, 18, 18, 0.6);
+}
 
 .header-container {
     padding: 170px 307px;
     color: #FFFFFF;
 }
 
-.btn-primary{
+.btn-primary {
     font-weight: 600;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
@@ -46,27 +47,31 @@ section{
     background-color: #FF5959;
     border: 0;
     border-radius: 5px;
+    margin-top: 30px;
 }
 
 /* Donate Section */
-main{
+main {
     text-align: center;
 }
-.donate-section{
+
+.donate-section {
     margin: 130px 338px;
 }
-.donate-title{
+
+.donate-title {
     color: #121212;
     font-size: 45px;
     font-weight: 700;
 }
-.donate-description{
+
+.donate-description {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
 }
 
-.taka-container{
+.taka-container {
     display: flex;
     gap: 22px;
     align-items: center;
@@ -75,28 +80,84 @@ main{
     padding-bottom: 60px;
 }
 
-.taka-content{
+.taka-content {
     background-color: #FAFAFA;
     border: none;
     border-radius: 5px;
 }
 
-.amount{
+.amount {
     color: #707070;
     padding: 45px 25px;
     font-size: 30px;
     font-weight: 700;
 }
 
-.taka-content:hover{
+.taka-content:hover {
     border: 2px solid #FF5959;
     background: #FFEEEE;
 }
-section>p{
+
+section>p {
     color: #B3B3B3;
     padding-bottom: 10px;
 }
-hr{
-    border: 1px soli #DADADA;
-    padding-bottom: 30px;
+
+hr {
+    border: 1px solid #DADADA;
+}
+
+/* Plan Section */
+.donate-plan {
+    margin: 130px 157px;
+}
+
+.donate-plan-container {
+    padding-top: 50px;
+    display: flex;
+    text-align: left;
+    gap: 24px;
+}
+
+.plan-card1 {
+    background-color: #4F9DA61A;
+    border: 0;
+    border-radius: 5px;
+}
+
+.plan-card2 {
+    background-color: #FF59591A;
+    border: 0;
+    border-radius: 5px;
+}
+
+.plan-card3 {
+    background-color: #FFF4D6;
+    border: 0;
+    border-radius: 5px;
+}
+
+.plan-img {
+    padding-top: 64px;
+    padding-bottom: 32px;
+    padding-left: 23px;
+}
+
+.plan-title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 23px;
+    padding-bottom: 16px;
+    color: #121212;
+    text-align: left;
+}
+
+.plan-description {
+    text-align: left;
+    color: #707070;
+    font-size: 16px;
+    padding-left: 23px;
+    padding-right: 22px;
+    padding-bottom: 54px;
 }
