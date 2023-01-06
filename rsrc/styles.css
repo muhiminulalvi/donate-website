@@ -199,7 +199,7 @@ hr {
     text-align: center;
 }
 
-form{
+form {
     width: 100%;
     display: flex;
 }
@@ -219,9 +219,10 @@ form{
     border: 0;
 }
 
-input[type="email"]{
+input[type="email"] {
     width: 80%;
 }
+
 input[type="submit"] {
     background: #FF5959;
     border-radius: 0px 5px 5px 0px;
@@ -229,3 +230,25 @@ input[type="submit"] {
     width: 20%;
 }
 
+/* Footer */
+footer {
+    text-align: center;
+    padding: 43px auto;
+    background-color: #0B0D17;
+}
+
+footer> h3 {
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-top: 43px;
+}
+
+footer>p{
+    color: #D9DBE1;
+    font-size: 14px;
+    padding-top: 24px;
+    padding-bottom: 43px;
+}
